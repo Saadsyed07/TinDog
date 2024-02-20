@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TinDog</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+  <meta content='#000000' name='theme-color' />
+  <link rel="shortcut icon" href="images/tindog.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+  <link rel="stylesheet" href="style.css">
+
+
+
+<body>
+
+  <!-- Title -->
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#" data-aos="fade-right">tindog </a><svg data-aos="fade-right"
+          xmlns="http://www.w3.org/2000/svg  width=" 30" height="30" fill="currentColor" class="bi bi-fire"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15" />
+        </svg>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Downloads</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6 hero">
+          <h1 data-aos="fade-right">Meet new and interesting dogs nearby.</h1>
+          <br>
+          <button type="button" class="btn hero-button btn-dark btn-lg"><i class="fa-solid fa-paw"></i> Know
+            More</button>
+          <button type="button" class="btn hero-button btn btn-outline-light btn-lg"><i
+              class="fa-brands fa-google-play"></i>
+            Download</button>
+        </div>
+        <div class="col-lg-6 hero-image">
+          <img class="title-image" src="./images/iphone.png" alt="iphone-mockup">
+          <video src="./video.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Features -->
+  <section id="features" >
+
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start"  data-aos="fade-right" >
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2-circle"
+            viewBox="0 0 16 16">
+            <path
+              d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+            <path
+              d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis" >Easy to use</h3>
+          <p>so easy to use, even your dog could do it.</p>
+
+        </div>
+      </div>
+      <div class="col d-flex align-items-start" data-aos="fade-up">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-mortarboard"
+            viewBox="0 0 16 16">
+            <path
+              d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+            <path
+              d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+          </svg>
+        </div>
+        <div >
+          <h3 class="fs-2 text-body-emphasis" >Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+
+        </div>
+      </div>
+      <div class="col d-flex align-items-start" data-aos="fade-left">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a22 22 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354zm2.893-4.894A20.4 20.4 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis" >Guaranteed To Work.</h3>
+          <p>Find the love of your dog's life of your money back.</p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <h2 class="sign-heading" data-aos="fade-right"> What our happy clients say</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" data-bs-interval="1000">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="./images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I've even joined a Tindog group and we meet up regularly for dog-friendly
+            activities.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="ethan patel">
+          <em>Ethan, Detroit</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I can quickly find dog-friendly events and make new friends for my fur baby.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="Ava Yang">
+          <em>Ava, Bangkok</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I was able to connect with someone whose dog had a compatible energy level with
+            my own dog.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="anuj">
+          <em>Anuj, Mumbai</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="flex">
+      <img src="./images/bizinsider.png" alt=""><img src="./images/mashable.png" alt=""><img
+        src="./images/techcrunch.png" alt=""><img src="./images/tnw.png" alt="">
+    </div>
+
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+
+    <main class="main flow">
+      <h1 class="main__heading" data-aos="fade-up">A Plan For Every Dod's Need</h1>
+      <p style="text-align: center;" data-aos="fade-up"> Simple and affordable price plans for you and your dog. </p>
+      <div class="main__cards cards">
+        <div class="cards__inner">
+          <div class="cards__card card" data-aos="fade-right">
+            <h2 class="card__heading">Chihuahua</h2>
+            <p class="card__price">$0 /mo</p>
+            <ul role="list" class="card__bullets flow">
+              <li>5 Matches Per Day</li>
+              <li>10 Messages Per Day</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <a href="#basic" class="card__cta cta">Sign up for free</a>
+          </div>
+
+          <div class="cards__card card">
+            <h2 class="card__heading">Labrador</h2>
+            <p class="card__price">$15 /mo</p>
+            <ul role="list" class="card__bullets flow">
+              <li>Unlimited Matches </li>
+              <li>Unlimited Messages </li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <a href="#pro" class="card__cta cta">Get Started</a>
+          </div>
+
+          <div class="cards__card card" data-aos="fade-left">
+            <h2 class="card__heading">Mastiff</h2>
+            <p class="card__price">$29 /mo</p>
+            <ul role="list" class="card__bullets flow">
+              <li>Priority Listing</li>
+              <li>Unlimited Matches& Messages </li>
+              <li>Unlimited App Usage</li>
+
+            </ul>
+            <a href="#ultimate" class="card__cta cta">Contact us</a>
+          </div>
+        </div>
+
+        <div class="overlay cards__inner"></div>
+      </div>
+    </main>
+  </section>
+
+  <h2 class="sign-heading" data-aos="fade-up"> Sign Up to use our web application</h2>
+
+  <section id="section">
+
+
+    <div class="leaves">
+      <div class="set">
+        <div><img src="./images/leaf_01.png"></div>
+        <div><img src="./images/leaf_02.png"></div>
+        <div><img src="./images/leaf_03.png"></div>
+        <div><img src="./images/leaf_04.png"></div>
+        <div><img src="./images/leaf_01.png"></div>
+        <div><img src="./images/leaf_02.png"></div>
+        <div><img src="./images/leaf_03.png"></div>
+        <div><img src="./images/leaf_04.png"></div>
+      </div>
+    </div>
+    <img src="./images/bg.jpg" class="bg">
+
+    <img src="./images/trees.png" class="trees">
+    <div class="login" data-aos="fade-right">
+      <h2>Sign In</h2>
+      <div class="inputBox">
+        <input type="text" placeholder="Username" </div>
+        <div class="inputBox">
+          <input type="password" placeholder="Password" </div>
+          <div class="inputBox">
+            <input type="submit" value="Login" id="btn">
+          </div>
+          <div class="group">
+            <a href="#">Forget Password</a>
+            <a href="#">Signup</a>
+          </div>
+        </div>
+
+  </section>
+  <!-- Footer -->
+  <section id="footer">
+
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-secondary">© 2023</p>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
